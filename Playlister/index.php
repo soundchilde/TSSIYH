@@ -4,7 +4,7 @@ session_start();
 //WEB APP for logging into Facebook
 
 // Load the Facebook PHP SDK
-require_once __DIR__ . '/facebook-php-sdk/src/Facebook/autoload.php';
+require_once __DIR__ . '../libraries/fbgraph-php-sdk-5.x/src/Facebook/autoload.php';
 
 // Initialize the Facebook SDK
 $facebook = new Facebook\Facebook([
